@@ -35,11 +35,16 @@
 
   <h2>What we collect</h2>
   <ul>
+    <li><strong>Guest sessions.</strong> You can use Dinner Handled without an account. In that case we create an anonymous session with a random user identifier and do not ask for your name or email.</li>
     <li><strong>Account information.</strong> When you sign in with Apple, Apple shares an account identifier and, the first time, an email address. If you sign in with email, we receive that email address. We do not receive your Apple password.</li>
     <li><strong>Grocery content you add.</strong> Item names, categories, amounts, meal records, and the recipes you choose to cook.</li>
     <li><strong>Photos you choose to submit.</strong> Photos of shopping lists, receipts, labels, or ingredients are sent for recognition when you tap to analyze them.</li>
     <li><strong>Barcodes.</strong> A scanned barcode number is sent to look up product information.</li>
   </ul>
+
+  <h2>Using the app as a guest</h2>
+  <p>You do not need an account to use Dinner Handled. On first launch we create an anonymous session so your kitchen, meals, and shopping list can be stored and synced securely. This session is tied to the app installation on your device, and we do not ask for your name or email.</p>
+  <p>If you reinstall the app, clear its data, or move to another device, that guest session may no longer be reachable. You can connect Sign in with Apple from <strong>Me</strong> at any time; your existing groceries and meals stay with the same account. If that Apple Account is already linked to another Dinner Handled account, the app signs you in to that account instead, and the guest data on the device is left behind.</p>
 
   <h2>How photos are handled</h2>
   <p>Photos are sent to our backend and then to a vision model provider solely to turn the image into a list of food items. We do not store your photos after the request completes. Please avoid including faces, payment card numbers, or other sensitive information in a photo; crop or retake if needed.</p>
@@ -67,7 +72,7 @@
   </ul>
 
   <h2>Retention and deletion</h2>
-  <p>Your account content is kept while your account is active. You can delete individual items and meal records in the app, and you can delete your account and associated data at any time from <strong>Me &rarr; Delete account</strong>. Deleting your account removes your account, grocery items, meals, scan usage, activity records, entitlements, and shared-kitchen membership from our live systems immediately, and it revokes your sessions and refresh tokens. Backup copies, if any, are cleared within 24 hours. If you signed in with Apple, we also ask Apple to revoke the token we received for your account.</p>
+  <p>Your account content is kept while your account is active. You can delete individual items and meal records in the app, and you can delete your account and associated data at any time from <strong>Me &rarr; Delete account</strong>. If you have been using the app as a guest, the same action is labeled <strong>Delete my data</strong> and deletes the anonymous account. Deleting removes your account, grocery items, meals, scan usage, activity records, entitlements, and shared-kitchen membership from our live systems immediately, and it revokes your sessions and refresh tokens. Backup copies, if any, are cleared within 24 hours. If you signed in with Apple, we also ask Apple to revoke the token we received for your account.</p>
   <p>Deleting your account does not cancel an App Store subscription. Manage or cancel it in your device settings under Apple ID &rarr; Subscriptions.</p>
   <p>If you cannot access the app, email <a href="mailto:support@wulawula.com?subject=Dinner%20Handled%20account%20deletion">support@wulawula.com</a> from the address associated with your account and we will process the request within 30 days.</p>
 
