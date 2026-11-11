@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffffff">
+<title>Privacy Policy — Picka</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #ffffff;
+    line-height: 1.65;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; color: #1A263B; }
+  .updated { color: #666; font-size: 0.9rem; margin: 0 0 28px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; color: #1A263B; }
+  p { margin: 8px 0; }
+  ul { padding-left: 20px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  a { color: #1A263B; }
+  .note { border-left: 3px solid #1A263B; padding: 4px 0 4px 14px; margin: 16px 0; }
+  footer { color: #888; font-size: 0.85rem; margin-top: 40px; border-top: 1px solid #e5e5e5; padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Effective November 11, 2026</p>
+
+  <p>Picka plans what to wear from the clothes you already own and the weather outside your door. This policy explains what we collect, why, and the choices you have.</p>
+
+  <div class="note">
+    <p><strong>Picka never asks for a photo of you.</strong> The person in a try-on preview is either one of ten bundled fashion models or a fictional AI model built from the options you choose. We do not collect face data, body measurements, or biometric identifiers.</p>
+  </div>
+
+  <h2>What we collect</h2>
+  <ul>
+    <li><strong>Guest sessions.</strong> You can use Picka without an account. On first launch we create an anonymous session with a random user identifier. We do not ask for your name or email.</li>
+    <li><strong>Account information.</strong> When you sign in with Apple, Apple shares an account identifier and, the first time, an email address — which may be Apple's private relay address. We do not receive your Apple password. We also store the Apple refresh token we are given, so we can revoke it if you delete your account.</li>
+    <li><strong>Closet content you add.</strong> Item names, categories, colors, warmth range, formality, the attributes you set, garment photos, cutout images, saved outfits, and the days you logged wearing something.</li>
+    <li><strong>AI model choices.</strong> The gender, hair, body, skin tone, and style options you pick, and the resulting generated image.</li>
+    <li><strong>Generated try-on images.</strong> The preview produced from your model image and a garment photo.</li>
+    <li><strong>Purchases.</strong> The Apple transaction identifier, product, environment, and expiry date. We never receive your card number or other payment details — Apple handles the payment.</li>
+    <li><strong>App activity.</strong> First-party events such as "outfit saved" or "try-on finished", with a small set of properties. We use no third-party analytics or advertising SDKs.</li>
+  </ul>
+
+  <h2>Location and weather</h2>
+  <p>If you allow location access, Picka asks iOS for a single approximate fix — accurate to about a kilometre, and only while you are using the app. Those coordinates go to <strong>Apple WeatherKit</strong> to fetch current conditions. They are never sent to our servers or to any AI provider, and we do not store your location, city, or a location history.</p>
+  <p>You can decline location access and set today's weather by hand in <strong>Me &rarr; Today's weather</strong>. Everything else in the app works the same way.</p>
+
+  <h2>Using Picka as a guest</h2>
+  <p>Weather planning, your closet, saved outfits, and wear history all work without an account. Your guest data is tied to this installation of the app and stored securely under a random identifier.</p>
+  <p>If you reinstall the app, clear its data, or move to another device, that guest session may no longer be reachable. You can connect Sign in with Apple from <strong>Me</strong> at any time and your closet stays with the same account. If that Apple Account is already linked to another Picka account, the app asks whether to merge your guest closet into it or sign in without merging — we never discard guest data silently. Buying credits or subscribing requires an account, so purchases can be restored on your other devices.</p>
+
+  <h2>How your photos are handled</h2>
+  <p>Garment photos are stored in a private storage area that only your account can reach. They are sent to an AI provider only when you tap a feature that needs it:</p>
+  <ul>
+    <li><strong>Auto-tagging</strong> — a garment photo is sent so the app can suggest category, color, and warmth.</li>
+    <li><strong>AI cutout</strong> — a garment photo is sent to remove its background. This costs 2 credits per item and is part of Plus.</li>
+    <li><strong>Try-on</strong> — your model image and one garment photo are sent to generate a preview.</li>
+  </ul>
+  <p>The <strong>free cutout</strong> option runs entirely on your iPhone using Apple's Vision framework. That image never leaves your device. Building and rearranging an outfit board is also on-device.</p>
+  <p>Please photograph the garment rather than yourself. Avoid including faces, payment cards, or other sensitive information in a garment photo; crop or retake if needed.</p>
+
+  <h2>How long images are kept</h2>
+  <ul>
+    <li><strong>Try-on results are deleted automatically 30 days after they are created.</strong> Save anything you want to keep before then.</li>
+    <li>Files that are no longer referenced by any record are removed within 24 hours.</li>
+    <li>Guest accounts with no activity for 30 days are deleted together with their files.</li>
+    <li>Closet photos, cutouts, and your chosen model image are kept until you delete the item or your account.</li>
+  </ul>
+  <p>You can delete an item, an outfit, or a try-on result in the app at any time. <strong>Me &rarr; Delete old person photos</strong> clears legacy person images while leaving your model, closet, and results intact.</p>
+
+  <h2>AI processing</h2>
+  <p>Nothing is sent to an AI provider until you tap a feature that uses one. Manual entry, the on-device cutout, weather planning, and outfit scoring keep working without any AI request.</p>
+  <p>Image generation runs on Alibaba Cloud's Bailian (DashScope) service; an alternate try-on provider, Fashn, may be used for the same purpose; garment tagging may use an OpenAI-compatible vision model. Each provider receives only what that request needs — a garment image, a generated model image, and the options you selected. We do not use your content to train models.</p>
+
+  <h2>How we use information</h2>
+  <ul>
+    <li>To build your closet and score outfits against today's weather and the scene you pick.</li>
+    <li>To generate try-on previews and AI model images you ask for.</li>
+    <li>To keep your wear history so items rotate instead of repeating.</li>
+    <li>To manage credits and Plus entitlements, and to restore purchases.</li>
+    <li>To operate, secure, and troubleshoot the service.</li>
+  </ul>
+
+  <h2>Service providers</h2>
+  <p>We use Supabase for authentication, database, and file storage. Apple provides Sign in with Apple, WeatherKit, and App Store payments. The AI providers listed above process images on our behalf. Each receives only what is needed for the request.</p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>We do not sell your personal information.</li>
+    <li>We do not use third-party advertising or cross-app tracking, and we do not show the App Tracking Transparency prompt.</li>
+    <li>We do not use your photos or closet to train models.</li>
+    <li>We do not collect face data or biometric identifiers.</li>
+    <li>We do not make your content visible to other users. Picka has no feed, sharing, comments, or followers — your closet is yours alone.</li>
+  </ul>
+
+  <h2>Retention and deletion</h2>
+  <p>Your content is kept while your account is active. You can delete your account and its data at any time from <strong>Me &rarr; Delete account</strong>. The same button works for guest sessions.</p>
+  <p>Deleting removes your account, closet items, outfits, wear history, try-on, model and cutout jobs, credits, entitlements, and every stored image from our live systems immediately, and it revokes your sessions and refresh tokens. If you signed in with Apple, we also ask Apple to revoke the token we received for your account. If Apple cannot be reached, deletion still completes and we record the outcome.</p>
+  <p>We keep a minimal record that a deletion happened — the account identifier, the time, and whether the Apple token was revoked — along with Apple's purchase notifications, which we need for accounting and refund handling. These contain no closet content or images. Backup copies held by our hosting provider expire on their normal rotation.</p>
+  <p>Deleting your account does not cancel an App Store subscription. Manage or cancel it in your device settings under Apple Account &rarr; Subscriptions.</p>
+  <p>If you cannot access the app, email <a href="mailto:support@wulawula.com?subject=Picka%20account%20deletion">support@wulawula.com</a> from the address associated with your account and we will process the request within 30 days.</p>
+
+  <h2>Children</h2>
+  <p>Picka is not directed to children under 13, and we do not knowingly collect information from them.</p>
+
+  <h2>Security</h2>
+  <p>Data is transmitted over HTTPS. Database access rules limit each account to its own rows, and stored images are private and reached only through short-lived signed links. No method of transmission or storage is completely secure.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes materially, we will update the effective date and, when appropriate, notify you in the app.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:support@wulawula.com?subject=Picka%20privacy">support@wulawula.com</a></p>
+
+  <footer><a href="../">Picka</a> · <a href="../support/">Support</a> · <a href="../terms/">Terms of Use</a></footer>
+</main>
+</body>
+</html>
